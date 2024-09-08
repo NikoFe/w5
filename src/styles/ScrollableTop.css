@@ -1,0 +1,17 @@
+.scrollable-tops {
+  display: flex;
+}
+.scrollable-top {
+  display: flex;
+  justify-content: start;
+  width: 235px;
+  align-items: center;
+  height: 30px;
+  gap: 10px;
+  padding: 10px;
+  background-color: darkkhaki;
+  font-size: 14px;
+}
+.scrollable-top .i {
+  font-size: 20px;
+}

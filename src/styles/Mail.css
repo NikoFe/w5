@@ -1,0 +1,28 @@
+.mail {
+  display: flex;
+  padding: 0px 5px;
+  justify-content: start;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.mail-left {
+  display: flex;
+  background-color: lightgreen;
+  width: 300px;
+  gap: 15px;
+  font-size: 14px;
+}
+.mail-content {
+  width: 67%;
+  background-color: lightcoral;
+  margin-right: 20px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.mail-date {
+  font-size: 12px;
+}

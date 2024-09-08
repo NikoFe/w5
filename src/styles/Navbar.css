@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  width: 97.5%;
+  height: fit-content;
+  padding: 8px 20px;
+
+  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar div {
+  align-items: center;
+  display: flex;
+}
+.navbar-left {
+  gap: 5px;
+}
+
+.navbar-left-left {
+  gap: 85px;
+}
+
+.navbar-left p {
+  font-size: 25px;
+  color: gray;
+}
+
+.navbar-left .i {
+  font-size: 20px;
+}
+
+#navbar-m {
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-right {
+  /*margin-right: 100px;*/
+  gap: 20px;
+}
+.navbar-right .i {
+  font-size: 20px;
+}
+.navbar-right .i:last-child {
+  font-size: 34px;
+}

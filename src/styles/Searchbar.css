@@ -1,0 +1,13 @@
+.navbar-search-bar {
+  width: 685px;
+  background-color: greenyellow;
+  padding: 15px 15px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.navbar-search-bar-left {
+  display: flex;
+  align-items: baseline;
+
+  gap: 15px;
+}

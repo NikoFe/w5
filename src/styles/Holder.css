@@ -1,0 +1,10 @@
+.holder {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 82%;
+  height: 615px;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+}

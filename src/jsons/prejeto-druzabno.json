@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PD1",
+    "sender": "prejeto-druzabno-1",
+    "date": "date1",
+    "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PD2",
+    "sender": "prejeto-druzabno-2",
+    "date": "date2",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PD3",
+    "sender": "prejeto-druzabno-3",
+    "date": "date3",
+    "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PD4",
+    "sender": "prejeto-druzabno-4",
+    "date": "date4",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PD5",
+    "sender": "prejeto-druzabno-5",
+    "date": "date5",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  }
+]

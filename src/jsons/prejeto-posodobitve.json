@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PP1",
+    "sender": "prejeto-posodobitve-1",
+    "date": "date1",
+    "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PP2",
+    "sender": "prejeto-posodobitve-2",
+    "date": "date2",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PP3",
+    "sender": "prejeto-posodobitve-3",
+    "date": "date3",
+    "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PP4",
+    "sender": "prejeto-posodobitve-4",
+    "date": "date4",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PP5",
+    "sender": "prejeto-posodobitve-5",
+    "date": "date5",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  }
+]

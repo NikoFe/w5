@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: pink;
+  padding: 10px;
+  width: 255px;
+  height: fit-content;
+  padding-left: 0px;
+  padding-top: 2px;
+}
+
+.side-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.createButton {
+  background-color: lightblue;
+  height: 60px;
+  width: 120px;
+  display: flex;
+  padding: 20px;
+  border: none;
+  border-radius: 18px;
+  gap: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.createButton .i {
+  font-size: 18px;
+}
+
+.marks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  padding-left: 24px;
+  padding-right: 15px;
+}
+
+.marks .i {
+}

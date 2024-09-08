@@ -1,0 +1,20 @@
+.side-option {
+  display: flex;
+  justify-content: space-between;
+  background-color: magenta;
+  padding: 8px;
+  padding-left: 26px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 14px;
+}
+
+.side-option p {
+  color: rgb(106, 106, 106);
+}
+
+.side-option-left {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}

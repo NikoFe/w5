@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PR1",
+    "sender": "prejeto-promocije-1",
+    "date": "date1",
+    "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PR2",
+    "sender": "prejeto-promocije-2",
+    "date": "date2",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PR3",
+    "sender": "prejeto-promocije-3",
+    "date": "date3",
+    "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "PR4",
+    "sender": "prejeto-promocije-4",
+    "date": "date4",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "PR5",
+    "sender": "prejeto-promocije-5",
+    "date": "date5",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  }
+]

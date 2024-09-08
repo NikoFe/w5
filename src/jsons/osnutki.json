@@ -1,0 +1,42 @@
+[
+  {
+    "id": "O1",
+    "sender": "Osnutek-1",
+    "date": "date1",
+    "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "O2",
+    "sender": "Osnutek-2",
+    "date": "date2",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "O3",
+    "sender": "Osnutek-3",
+    "date": "date3",
+    "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": false,
+    "unsent": false
+  },
+  {
+    "id": "O4",
+    "sender": "Osnutek-4",
+    "date": "date4",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  },
+  {
+    "id": "O5",
+    "sender": "Osnutek-5",
+    "date": "date5",
+    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+    "important": true,
+    "unsent": false
+  }
+]
