@@ -1,0 +1,43 @@
+.dropdown-1 {
+  display: flex;
+  position: absolute;
+  background-color: pink;
+  color: gray;
+  z-index: 100;
+  flex-direction: column;
+  left: 0px;
+  top: 35px;
+  padding: 5px 2px;
+  width: fit-content;
+  justify-content: start;
+  box-shadow: 0px 1px 3px gray;
+}
+.dropdown-1 hr {
+  height: 0.5px;
+  background-color: gray;
+  border: none;
+
+  width: 100%;
+}
+
+.dropdown-1 p {
+  width: 210px;
+  padding: 8px 0px;
+  display: flex;
+  justify-content: start;
+  padding-left: 50px;
+  font-size: 13px;
+}
+
+.dropdown-1 p:hover {
+  background-color: lightgray;
+}
+#checkedP {
+  padding-left: 15px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#checkedP .i {
+  font-size: 20px;
+}

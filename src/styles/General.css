@@ -17,9 +17,18 @@ h4 {
 
 body {
   background-color: lightblue;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .gray-p {
   font-size: 13px;
   color: gray;
+}
+
+.blueP {
+  font-size: 14px;
+  color: blue;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }

@@ -22,51 +22,85 @@ interface Message {
 }
 
 interface Props {
-  data: Message[];
+  onClickGlavno: () => void;
+  onClickPromocije: () => void;
+  onClickDruzabno: () => void;
+  onClickPosodobitve: () => void;
 }
 
-const ScrollableTopFlex = ({ data }: Props) => {
-  //function changeMails(mailType: string) {}
+const ScrollableTopFlex = ({
+  onClickGlavno,
+  onClickPromocije,
+  onClickDruzabno,
+  onClickPosodobitve,
+}: Props) => {
+  const [selectedTop, setSelectedTop] = useState(0);
+
+  function changeSelectedIndex(num: number) {
+    setSelectedTop(num);
+  }
 
   return (
-    <div className="scrollable-tops">
-      <ScrollableTop
-        text="Glavno"
-        onSelect={() => {
-          console.log("CHANGING DATA");
-          data = osnutki;
-          // mailType = "osnutki";
-          //location.href = "/osnutki";
-        }}
-      >
-        <FaRegFileLines></FaRegFileLines>
-      </ScrollableTop>
+    <>
+      <div className="scrollable-tops">
+        <ScrollableTop
+          text="Glavno"
+          onSelect={() => {
+            onClickGlavno();
+          }}
+          changeSelected={() => {
+            console.log("CHANGING INDEX");
+            changeSelectedIndex(0);
+          }}
+          selected={selectedTop == 0 ? false : true}
+        >
+          <FaRegFileLines></FaRegFileLines>
+        </ScrollableTop>
 
-      <ScrollableTop
-        text="Promocije"
-        onSelect={() => {
-          location.href = "/osnutki";
-        }}
-      >
-        <IoPricetagSharp></IoPricetagSharp>
-      </ScrollableTop>
-      <ScrollableTop
-        text="Druzabno"
-        onSelect={() => {
-          location.href = "/osnutki";
-        }}
-      >
-        <IoPeople></IoPeople>
-      </ScrollableTop>
-      <ScrollableTop
-        text="Posodobitve"
-        onSelect={() => {
-          location.href = "/osnutki";
-        }}
-      >
-        <FaCircleInfo></FaCircleInfo>
-      </ScrollableTop>
-    </div>
+        <ScrollableTop
+          text="Promocije"
+          onSelect={() => {
+            //  location.href = "/osnutki";
+            onClickPromocije();
+          }}
+          changeSelected={() => {
+            console.log("CHANGING INDEX");
+            changeSelectedIndex(1);
+          }}
+          selected={selectedTop == 1 ? false : true}
+        >
+          <IoPricetagSharp></IoPricetagSharp>
+        </ScrollableTop>
+        <ScrollableTop
+          text="Druzabno"
+          onSelect={() => {
+            onClickDruzabno();
+            //location.href = "/osnutki";
+          }}
+          changeSelected={() => {
+            console.log("CHANGING INDEX");
+            changeSelectedIndex(2);
+          }}
+          selected={selectedTop == 2 ? false : true}
+        >
+          <IoPeople></IoPeople>
+        </ScrollableTop>
+        <ScrollableTop
+          text="Posodobitve"
+          onSelect={() => {
+            onClickPosodobitve();
+            //  location.href = "/osnutki";
+          }}
+          changeSelected={() => {
+            console.log("CHANGING INDEX");
+            changeSelectedIndex(3);
+          }}
+          selected={selectedTop == 3 ? false : true}
+        >
+          <FaCircleInfo></FaCircleInfo>
+        </ScrollableTop>
+      </div>
+    </>
   );
 };
 

@@ -3,8 +3,9 @@
   flex-direction: column;
   background-color: aqua;
   width: 100%;
-  height: 95%;
+  height: 98%;
   overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .scrollable-tops {
   display: flex;

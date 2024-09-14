@@ -4,7 +4,7 @@ import Scrollable from "../components/Scrollable";
 const Poslano = () => {
   return (
     <div>
-      <Scrollable top="1" pageType="poslano"></Scrollable>
+      <Scrollable top="poslano" pageType="poslano"></Scrollable>
     </div>
   );
 };

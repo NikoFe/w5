@@ -1,7 +1,8 @@
 .scrollable-tops {
   display: flex;
 }
-.scrollable-top {
+.scrollable-top,
+.scrollable-top-selected {
   display: flex;
   justify-content: start;
   width: 235px;
@@ -12,6 +13,17 @@
   background-color: darkkhaki;
   font-size: 14px;
 }
+
+.scrollable-top:hover,
+.scrollable-top-selected:hover {
+  background-color: lightgray;
+}
+
+.scrollable-top-selected {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
 .scrollable-top .i {
   font-size: 20px;
 }

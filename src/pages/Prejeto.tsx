@@ -6,7 +6,7 @@ import Scrollable from "../components/Scrollable";
 const Prejeto = () => {
   return (
     <div>
-      <Scrollable top="1" pageType="prejeto-glavno"></Scrollable>
+      <Scrollable top="prejeto" pageType="prejeto-glavno"></Scrollable>
     </div>
   );
 };
