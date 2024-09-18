@@ -13,6 +13,10 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdKeyboard } from "react-icons/md";
 
+function working() {
+  alert("WORKING");
+}
+
 const Top1 = () => {
   return (
     <div className="top-1">
@@ -22,20 +26,20 @@ const Top1 = () => {
 
           <IoMdArrowDropdown></IoMdArrowDropdown>
         </div>
-        <CircleDiv>
+        <CircleDiv onClick={() => {}}>
           <IoIosRefresh className="i"></IoIosRefresh>
         </CircleDiv>
-        <CircleDiv>
+        <CircleDiv onClick={() => {}}>
           <BsThreeDotsVertical className="i"></BsThreeDotsVertical>
         </CircleDiv>
       </div>
 
       <div className="top-1-right">
         <p className="gray-p">1-50 od 1.855</p>
-        <CircleDiv>
+        <CircleDiv onClick={() => {}}>
           <FaChevronLeft className="i"></FaChevronLeft>
         </CircleDiv>
-        <CircleDiv>
+        <CircleDiv onClick={working}>
           <FaChevronRight className="i"></FaChevronRight>
         </CircleDiv>
 

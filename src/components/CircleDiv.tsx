@@ -4,7 +4,12 @@ interface Props {
   children: ReactNode;
 }
 
-const CircleDiv = ({ children }: Props) => {
+interface Props {
+  onClick?: (str: string) => void;
+  str?: string;
+}
+
+const CircleDiv = ({ children, onClick, str }: Props) => {
   return <div className="circle-div">{children}</div>;
 };
 

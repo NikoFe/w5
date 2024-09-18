@@ -4,6 +4,8 @@
   justify-content: start;
   padding-left: 15px;
   padding-top: 10px;
+  position: relative;
+  background-color: lightgrey;
 }
 
 .mail-left {
@@ -25,4 +27,25 @@
 
 .mail-date {
   font-size: 12px;
+}
+
+.mail-extras {
+  position: absolute;
+  gap: 10px;
+  right: 20px;
+
+  background-color: lightgrey;
+
+  vertical-align: top;
+  padding-top: 15px;
+  display: none;
+}
+
+.mail:hover {
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.mail:hover .mail-extras {
+  display: flex;
 }

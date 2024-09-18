@@ -17,6 +17,52 @@ import poslano from "../jsons/poslano.json";
 import ScrollableTopFlex from "./ScrollableTopFlex";
 import CustomTop1 from "./CustomTop1";
 
+function selectTop(str: string) {
+  switch (str) {
+    case "poslano":
+      {
+        return (
+          <CustomTop1
+            od={false}
+            kadarkoli={true}
+            vsebujePrilogo={true}
+            Za={true}
+            jeNeprebrano={true}
+          ></CustomTop1>
+        );
+      }
+
+      break;
+    case "pomembno": {
+      return (
+        <CustomTop1
+          od={true}
+          kadarkoli={true}
+          vsebujePrilogo={true}
+          Za={true}
+          jeNeprebrano={true}
+        ></CustomTop1>
+      );
+    }
+    case "osnutki":
+      {
+        return (
+          <CustomTop1
+            od={false}
+            kadarkoli={true}
+            vsebujePrilogo={true}
+            Za={true}
+            jeNeprebrano={false}
+          ></CustomTop1>
+        );
+      }
+
+      break;
+    default:
+      return;
+  }
+}
+
 interface Props {
   pageType: string;
   top: string;
@@ -25,83 +71,6 @@ interface Props {
 const jsonArray = [];
 
 const Scrollable = ({ pageType, top }: Props) => {
-  function selectTop(str: string) {
-    switch (str) {
-      case "prejeto": {
-        return (
-          <>
-            <CustomTop1
-              od={false}
-              kadarkoli={true}
-              vsebujePrilogo={true}
-              Za={true}
-              jeNeprebrano={true}
-            ></CustomTop1>
-
-            <Top1></Top1>
-            <ScrollableTopFlex
-              onClickGlavno={() => changeData("prejeto-glavno")}
-              onClickPromocije={() => changeData("prejeto-promocije")}
-              onClickDruzabno={() => changeData("prejeto-druzabno")}
-              onClickPosodobitve={() => changeData("prejeto-posodobitve")}
-            ></ScrollableTopFlex>
-          </>
-        );
-      }
-
-      case "poslano":
-        {
-          return (
-            <>
-              <CustomTop1
-                od={false}
-                kadarkoli={true}
-                vsebujePrilogo={true}
-                Za={true}
-                jeNeprebrano={true}
-              ></CustomTop1>
-              <Top1></Top1>
-            </>
-          );
-        }
-
-        break;
-      case "pomembno": {
-        return (
-          <>
-            <CustomTop1
-              od={true}
-              kadarkoli={true}
-              vsebujePrilogo={true}
-              Za={true}
-              jeNeprebrano={true}
-            ></CustomTop1>
-            <Top1></Top1>
-          </>
-        );
-      }
-      case "osnutki":
-        {
-          return (
-            <>
-              <CustomTop1
-                od={false}
-                kadarkoli={true}
-                vsebujePrilogo={true}
-                Za={true}
-                jeNeprebrano={false}
-              ></CustomTop1>
-              <Top1></Top1>
-            </>
-          );
-        }
-
-        break;
-      default:
-        return;
-    }
-  }
-
   const [prejetoGlavno, setPrejetoGlavno] = useState<any[]>([]);
   const [prejetoDruzabno, setPrejetoDruzabno] = useState<any[]>([]);
   const [prejetoPosodobitve, setPrejetoPosodobitve] = useState<any[]>([]);
@@ -214,7 +183,13 @@ const Scrollable = ({ pageType, top }: Props) => {
     <>
       <div className="scrollable">
         {selectTop(top)}
-
+        <Top1></Top1>
+        <ScrollableTopFlex
+          onClickGlavno={() => changeData("prejeto-glavno")}
+          onClickPromocije={() => changeData("prejeto-promocije")}
+          onClickDruzabno={() => changeData("prejeto-druzabno")}
+          onClickPosodobitve={() => changeData("prejeto-posodobitve")}
+        ></ScrollableTopFlex>
         {selectType(pageType)}
         <div
           className="scrollable-bottom"

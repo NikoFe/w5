@@ -1,8 +1,11 @@
 .circle-div {
-  background-color: gray;
   border-radius: 100%;
   padding: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.circle-div:hover {
+  background-color: gray;
+  transition-duration: 0.3s;
 }

@@ -1,42 +1,260 @@
-[
-  {
-    "id": "PG1",
-    "sender": "prejeto-glavno-1",
-    "date": "date1",
-    "content": "First Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-    "important": false,
-    "unsent": false
-  },
-  {
-    "id": "PG2",
-    "sender": "prejeto-glavno-2",
-    "date": "date2",
-    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-    "important": true,
-    "unsent": false
-  },
-  {
-    "id": "PG3",
-    "sender": "prejeto-glavno-3",
-    "date": "date3",
-    "content": "Third Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-    "important": false,
-    "unsent": false
-  },
-  {
-    "id": "PG4",
-    "sender": "prejeto-glavno-4",
-    "date": "date4",
-    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-    "important": true,
-    "unsent": false
-  },
-  {
-    "id": "PG5",
-    "sender": "prejeto-glavno-5",
-    "date": "date5",
-    "content": "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-    "important": true,
-    "unsent": false
-  }
-]
+{
+  "jobs": [
+    {
+      "id": "PG4",
+      "sender": "prejeto-glavno-4",
+      "date": "date4",
+      "content": "Fourth Glavno Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-glavno",
+      "title": "TitlePG4"
+    },
+    {
+      "id": "PG5",
+      "sender": "prejeto-glavno-5",
+      "date": "date5",
+      "content": "Fifth Glavno ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-glavno",
+      "title": "TitlePG5"
+    },
+    {
+      "id": "PD1",
+      "sender": "prejeto-druzabno-1",
+      "date": "date1",
+      "content": "First Druzabno Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-druzabno",
+      "title": "TitlePD1"
+    },
+    {
+      "id": "PD2",
+      "sender": "prejeto-druzabno-2",
+      "date": "date2",
+      "content": "Second DruzabnoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-druzabno",
+      "title": "TitlePD2"
+    },
+    {
+      "id": "PD3",
+      "sender": "prejeto-druzabno-3",
+      "date": "date3",
+      "content": "Third Druzabno Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-druzabno",
+      "title": "TitlePD3"
+    },
+    {
+      "id": "PD4",
+      "sender": "prejeto-druzabno-4",
+      "date": "date4",
+      "content": "Fourth Druzabno Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-druzabno",
+      "title": "TitlePD4"
+    },
+    {
+      "id": "PD5",
+      "sender": "prejeto-druzabno-5",
+      "date": "date5",
+      "content": "Fifth Druzabno Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-druzabno",
+      "title": "TitlePD5"
+    },
+    {
+      "id": "PP1",
+      "sender": "prejeto-posodobitve-1",
+      "date": "date1",
+      "content": "First Posodobitve Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-posodobitve",
+      "title": "TitlePP1"
+    },
+    {
+      "id": "PP2",
+      "sender": "prejeto-posodobitve-2",
+      "date": "date2",
+      "content": "Second Posodobitve Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-posodobitve",
+      "title": "TitlePP2"
+    },
+    {
+      "id": "PP3",
+      "sender": "prejeto-posodobitve-3",
+      "date": "date3",
+      "content": "Third Posodobitve Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-posodobitve",
+      "title": "TitlePP3"
+    },
+    {
+      "id": "PP4",
+      "sender": "prejeto-posodobitve-4",
+      "date": "date4",
+      "content": "Fourth Posodobitve Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-posodobitve",
+      "title": "TitlePP4"
+    },
+    {
+      "id": "PP5",
+      "sender": "prejeto-posodobitve-5",
+      "date": "date5",
+      "content": "Fifth Posodobitve Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-posodobitve",
+      "title": "TitlePP5"
+    },
+    {
+      "id": "PR1",
+      "sender": "prejeto-promocije-1",
+      "date": "date1",
+      "content": "First Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-promocije",
+      "title": "TitlePR1"
+    },
+    {
+      "id": "PR2",
+      "sender": "prejeto-promocije-2",
+      "date": "date2",
+      "content": "Second Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-promocije",
+      "title": "TitlePR2"
+    },
+    {
+      "id": "PR3",
+      "sender": "prejeto-promocije-3",
+      "date": "date3",
+      "content": "Third Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-promocije",
+      "title": "TitlePR3"
+    },
+    {
+      "id": "PR4",
+      "sender": "prejeto-promocije-4",
+      "date": "date4",
+      "content": "Fourth Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-promocije",
+      "title": "TitlePR4"
+    },
+    {
+      "id": "PR5",
+      "sender": "prejeto-promocije-5",
+      "date": "date5",
+      "content": "Fifth Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "prejeto-promocije",
+      "title": "TitlePR5"
+    },
+    {
+      "id": "O1",
+      "sender": "Osnutek-1",
+      "date": "date1",
+      "content": "First Osnutek Promocije Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "osnutek",
+      "title": "TitleO1"
+    },
+    {
+      "id": "O2",
+      "sender": "Osnutek-2",
+      "date": "date2",
+      "content": "Second Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "osnutek",
+      "title": "TitleO2"
+    },
+    {
+      "id": "O3",
+      "sender": "Osnutek-3",
+      "date": "date3",
+      "content": "Third Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "osnutek",
+      "title": "TitlePO3"
+    },
+    {
+      "id": "O4",
+      "sender": "Osnutek-4",
+      "date": "date4",
+      "content": "Fourth Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "osnutek",
+      "title": "TitleO4"
+    },
+    {
+      "id": "O5",
+      "sender": "Osnutek-5",
+      "date": "date5",
+      "content": "Fifth Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "osnutek",
+      "title": "TitleO5"
+    },
+    {
+      "id": "P3",
+      "sender": "za:poslano-3",
+      "date": "date3",
+      "content": "Third Poslano Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "poslano",
+      "title": "TitleP3"
+    },
+    {
+      "id": "P4",
+      "sender": "za:poslano-4",
+      "date": "date4",
+      "content": "Fourth Poslano Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "poslano",
+      "title": "TitleP4"
+    },
+    {
+      "id": "P5",
+      "sender": "za:poslano-5",
+      "date": "date5",
+      "content": "Fifth Poslano Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
+      "type": "poslano",
+      "title": "TitleP5"
+    },
+    {
+      "id": "5843.142056637088",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "9533.567186550586",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "7365.615840095822",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "2660.9826518333384",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "3138.1439633183145",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "6986.103061718168",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "",
+      "type": "poslano",
+      "title": ""
+    },
+    {
+      "id": "529.6687999205834",
+      "sender": "Me",
+      "date": "Wed Sep 18 2024 ",
+      "content": "aaa",
+      "type": "poslano",
+      "title": "aaa"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+.new-mail {
+  display: none;
+  flex-direction: column;
+  z-index: 999;
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 500px;
+  right: 75px;
+  bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.new-mail-cross {
+  position: absolute;
+  font-size: 16px;
+  right: 10px;
+  top: 10px;
+}
+
+.new-mail-top {
+  background-color: lightblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.new-mail-input,
+.new-mail-top {
+  display: flex;
+  padding: 10px 10px;
+}
+.new-mail-bottom {
+  display: flex;
+  padding: 10px;
+  border-color: red !important;
+  padding-left: 20px;
+}
+
+.new-mail input[type="submit"] {
+  background-color: blue;
+  border-radius: 19px;
+  background-color: blue;
+  padding: 8px 14px;
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding-right: 50px;
+}
+
+.caretDown {
+  position: absolute;
+  left: 82px;
+  bottom: 25px;
+  color: white;
+}
