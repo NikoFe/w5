@@ -2,13 +2,12 @@ import React, { ReactNode } from "react";
 import { LuPrinter } from "react-icons/lu";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
-
 import { RxAvatar } from "react-icons/rx";
-
 import Avatar from "./Avatar";
-
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
+import { BsFillExclamationOctagonFill } from "react-icons/bs";
 
 interface Props {
   children: ReactNode;
@@ -35,6 +34,21 @@ const Details = () => {
 
   return (
     <div className="details-div">
+      <div className="details-header">
+        <div>
+          <FaArrowLeft></FaArrowLeft>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+        </div>
+        <div>
+          <FaArrowLeft></FaArrowLeft>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+          <BsFillExclamationOctagonFill></BsFillExclamationOctagonFill>
+        </div>
+      </div>
+
       <div className="details-row-1">
         <h2 className="details-title">{mail ? mail.title : ""}</h2>
 
@@ -45,7 +59,11 @@ const Details = () => {
       </div>
       <div className="details-row-2">
         <div className="details-row-2-left">
-          <Avatar text="" color=""></Avatar>
+          <Avatar text="A" color="red"></Avatar>
+          <div className="details-user-data">
+            <p>Google Play googleplay-noreply@google.com</p>
+            <p>Za jaz</p>
+          </div>
         </div>
 
         <div className="details-row-2-right">
@@ -57,7 +75,11 @@ const Details = () => {
         </div>
       </div>
 
-      <div className="details-info"></div>
+      <div className="details-row-3">
+        <div className="details-content">
+          <p>{mail ? mail.content : ""}</p>
+        </div>
+      </div>
     </div>
   );
 };

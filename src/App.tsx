@@ -33,6 +33,7 @@ import "./styles/DropDowns.css";
 import "./styles/Buttons.css";
 import "./styles/EmailUser.css";
 import "./styles/NewMail.css";
+import "./styles/Details.css";
 
 import { TbH1 } from "react-icons/tb";
 

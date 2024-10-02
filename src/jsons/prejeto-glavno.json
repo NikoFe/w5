@@ -9,14 +9,6 @@
       "title": "TitlePG4"
     },
     {
-      "id": "PG5",
-      "sender": "prejeto-glavno-5",
-      "date": "date5",
-      "content": "Fifth Glavno ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-      "type": "prejeto-glavno",
-      "title": "TitlePG5"
-    },
-    {
       "id": "PD1",
       "sender": "prejeto-druzabno-1",
       "date": "date1",
@@ -153,30 +145,6 @@
       "title": "TitleO2"
     },
     {
-      "id": "O3",
-      "sender": "Osnutek-3",
-      "date": "date3",
-      "content": "Third Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-      "type": "osnutek",
-      "title": "TitlePO3"
-    },
-    {
-      "id": "O4",
-      "sender": "Osnutek-4",
-      "date": "date4",
-      "content": "Fourth Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-      "type": "osnutek",
-      "title": "TitleO4"
-    },
-    {
-      "id": "O5",
-      "sender": "Osnutek-5",
-      "date": "date5",
-      "content": "Fifth Osnutek Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-      "type": "osnutek",
-      "title": "TitleO5"
-    },
-    {
       "id": "P3",
       "sender": "za:poslano-3",
       "date": "date3",
@@ -201,60 +169,28 @@
       "title": "TitleP5"
     },
     {
-      "id": "5843.142056637088",
+      "id": "7566.324032133919",
       "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
+      "date": "Wed Oct 02 2024 ",
+      "content": "11111111111111",
       "type": "poslano",
-      "title": ""
+      "title": "Angela prejeto"
     },
     {
-      "id": "9533.567186550586",
+      "id": "889.1118867717186",
       "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
+      "date": "Wed Oct 02 2024 ",
+      "content": "A3",
       "type": "poslano",
-      "title": ""
+      "title": "A2"
     },
     {
-      "id": "7365.615840095822",
-      "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
+      "id": "220.08218978507963",
+      "sender": "za B1",
+      "date": "Wed Oct 02 2024 ",
+      "content": "BBB",
       "type": "poslano",
-      "title": ""
-    },
-    {
-      "id": "2660.9826518333384",
-      "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
-      "type": "poslano",
-      "title": ""
-    },
-    {
-      "id": "3138.1439633183145",
-      "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
-      "type": "poslano",
-      "title": ""
-    },
-    {
-      "id": "6986.103061718168",
-      "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "",
-      "type": "poslano",
-      "title": ""
-    },
-    {
-      "id": "529.6687999205834",
-      "sender": "Me",
-      "date": "Wed Sep 18 2024 ",
-      "content": "aaa",
-      "type": "poslano",
-      "title": "aaa"
+      "title": "B2"
     }
   ]
 }

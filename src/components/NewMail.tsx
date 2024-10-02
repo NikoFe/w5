@@ -17,7 +17,7 @@ const NewMail = () => {
 
     const newMail = {
       id: String(Math.random() * 9999),
-      sender: "Me",
+      sender: "za: " + reciever,
       date: String(new Date())
         .substring(0, 16)
         .replace(/(\r\n|\n|\r)/gm, ""),

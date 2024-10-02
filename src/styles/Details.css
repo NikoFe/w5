@@ -1,0 +1,41 @@
+.details-div {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+.details-header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.details-row-1 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.details-row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.details-row-2-left {
+  display: flex;
+}
+
+.details-user-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-row-3 {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: center;
+  padding: 20px;
+}
+
+.details-content {
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+}

@@ -22,22 +22,19 @@ const Mail = ({ sender, children, date, clip, mailKey }: Props) => {
 
   function deleteMail(key: string) {
     const deleting = async () => {
-      // alert("DELETING " + `http://localhost:8000/jobs/${key}`);
       const res = await fetch(`http://localhost:8000/jobs/${key}`, {
         method: "DELETE",
       });
       return;
     };
     deleting();
+    alert("deleted");
     return navigate("/");
   }
 
-  //console.log(mailKey);
-
   return (
     <>
-      {/*<Link to={"/details/" + mailKey}>*/}
-      <div className="mail" onClick={() => navigate(`/details/${mailKey}`)}>
+      <div className="mail">
         <div className="mail-left">
           <FaRegSquare></FaRegSquare>
           <FaRegStar></FaRegStar>
@@ -51,16 +48,15 @@ const Mail = ({ sender, children, date, clip, mailKey }: Props) => {
           <CircleDiv>
             <IoArchive></IoArchive>
           </CircleDiv>
-          <CircleDiv>
-            <div
-              onClick={(e) => {
-                e.stopPropagation;
-                deleteMail(mailKey);
-              }}
-            >
+          <div
+            onClick={() => {
+              deleteMail(mailKey);
+            }}
+          >
+            <CircleDiv>
               <IoTrash></IoTrash>
-            </div>
-          </CircleDiv>
+            </CircleDiv>
+          </div>
           <CircleDiv>
             <FaEnvelope></FaEnvelope>
           </CircleDiv>
@@ -68,8 +64,11 @@ const Mail = ({ sender, children, date, clip, mailKey }: Props) => {
             <FaClock></FaClock>
           </CircleDiv>
         </div>
+
+        <Link to={`/details/${mailKey}`} className="mail-background">
+          <div className="mail-background"></div>
+        </Link>
       </div>
-      {/*</Link>*/}
     </>
   );
 };
